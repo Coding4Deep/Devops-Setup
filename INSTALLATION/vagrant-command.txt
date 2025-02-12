@@ -1,0 +1,12 @@
+
+
+1.open gitbash (or any terminal)
+2.download vagrant file and put it to desired folder
+3.run following vagrant  command in bash
+   i)   vagrant up (to boot up VM)
+  ii)   vagrant status ( check the status of VM )
+ iii)   vagrant global-status ( check status globally )
+  iv)   vagrant ssh (login to your server )
+   v)   vagrant reboot (to reeboot your vm)
+  vi)   vagrant halt ( to switch off your VM)
+ vii)   vagrant destroy --force (to delete your vm )
