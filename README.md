@@ -1,4 +1,3 @@
-This repository contains **configuration notes, scripts, and setup instructions** for various **DevOps tools** used in managing CI/CD pipelines, infrastructure automation, containerization, monitoring, and cloud deployments.
 
 ## 🛠️ Tools & Technologies Configured
 This setup covers multiple essential **DevOps tools**, including:
