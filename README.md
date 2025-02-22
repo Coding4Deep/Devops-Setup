@@ -1,9 +1,9 @@
-# 🚀 SonarQube Configuration & Setup Guide  
+#  SonarQube Configuration & Setup Guide  
 
-Welcome to the **SonarQube Setup Branch** of this repository! 🎯<br>  
+Welcome to the **SonarQube Setup Branch** of this repository! <br>  
 This branch contains **all the necessary configurations, scripts, and setup instructions** for integrating **SonarQube** into your projects.  
 
-## 📌 What's Inside?  
+##  What's Inside?  
 
 ✅ **SonarQube Installation Guide** – Step-by-step instructions for setup.<br>  
 ✅ **Configuration Files** – Pre-configured settings for smooth integration.<br>  
