@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.app.example</groupId>
+  <artifactId>java-app</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>java-app</name>
+  <url>http://maven.apache.org</url>
+  
+
+<properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <sonar.host.url>http://192.168.56.15:9000</sonar.host.url>
+    <sonar.login>sqa_7432d0f4368379b584227fc54bca56ef236c58cf</sonar.login>
+ </properties>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+
+<build>
+      <plugins>
+<!--  SonarQube Scanner Plugin  -->
+              <plugin>
+                      <groupId>org.sonarsource.scanner.maven</groupId>
+                      <artifactId>sonar-maven-plugin</artifactId>
+                      <version>3.9.1.2184</version>
+              </plugin>
+      </plugins>
+</build>
+
+<reporting>
+     <plugins>
+        <!--  SonarQube Reports  -->
+	<plugin>
+              <groupId>org.sonarsource.scanner.maven</groupId>
+              <artifactId>sonar-maven-plugin</artifactId>
+              <version>3.9.1.2184</version>
+        </plugin>
+     </plugins>
+</reporting>
+
+
+</project>
