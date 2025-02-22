@@ -8,3 +8,4 @@ This branch contains all the necessary configurations, scripts, and setup instru
 ✅ Scripts & Commands – Handy shell scripts to automate tasks.
 ✅ Troubleshooting Guide – Fix common issues like Elasticsearch errors.
 ✅ Integration Steps – How to connect SonarQube with Java (Maven), Node.js, and other projects.
+
