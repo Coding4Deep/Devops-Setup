@@ -6,7 +6,6 @@
   <artifactId>project</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>project</name>
   <url>http://maven.apache.org</url>
 
@@ -14,8 +13,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <sonar.host.url></sonar.host.url>
-    <sonar.login> </sonar.login>
+  <!--  <sonar.host.url></sonar.host.url>  -->
+    <sonar.login>sqa_8f301114b70da2ecd44b804ef883abe2a6dde00e</sonar.login>
   </properties>
 
   <dependencies>
