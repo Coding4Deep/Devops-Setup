@@ -17,6 +17,19 @@
     <sonar.login>sqa_8f301114b70da2ecd44b804ef883abe2a6dde00e</sonar.login>
   </properties>
 
+
+  <distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <url>http://192.168.56.15:8081/repository/amazon-relese/</url>
+</repository>
+
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://192.168.33.10:8081/repository/jenjins-nexus-CI/</url>
+    </snapshotRepository>
+</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
